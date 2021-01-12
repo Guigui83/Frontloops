@@ -1,27 +1,38 @@
 
 body{
-    background-color: rgb(94, 121, 243);
+    background-color: rgb(94, 159, 243);
+}
+
+
+.page{
+    display: flex;
+    justify-content: center;
+    flex direction: row;
+
 }
 
 .cards{
     background-color: rgb(255, 255, 255);
     border-radius: 10px ;
+    height: 500px;
+    width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
 
 }
 
-.mobile,.desktop, .tv {
+.mobile,.desktop,.tv{
     background-color: rgb(240, 232, 232);
     border-radius: 10px;
     cursor: pointer;
 }
 
-.mobile,.desktop,.tv  a:hover{
-    color: #666666;
-}
-
 p{
     font-family: 'Roboto', sans-serif;
-    font-size: 26px;
+    font-size: 20px;
     color: rgb(138, 138, 138);
 }
 
@@ -29,5 +40,5 @@ h1{
     font-family: 'Roboto', sans-serif;
     font-size: 34px;
     letter-spacing: .4rem;
-    color: rgb(94, 121, 243);
+    color: rgb(94, 159, 243);
 }
