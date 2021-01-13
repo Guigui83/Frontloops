@@ -1,11 +1,16 @@
-
-body{
-    background-color: rgb(94, 159, 243);
+body {
+    margin: 0;
+    padding: 0;
+    background: #85A5D4;
+    font-family: Roboto, sans-serif;
 }
 
-.cards{
-    margin-top: 200px;
-    margin-left: 40px;
+.root {
+    width: 1300px;
+    margin: 100px auto;
+}
+
+.cards {
     background-color: rgb(255, 255, 255);
     border-radius: 10px ;
     height: 520px;
@@ -16,7 +21,7 @@ body{
     align-items: center;
 }
 
-.mobile,.desktop,.tv{
+.mobile,.desktop,.tv {
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     cursor: pointer;
@@ -26,37 +31,43 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: background 0.15s ease-in-out;
 }
 
-p{
+.mobile:hover,.desktop:hover,.tv:hover {
+    background: #f6f6f6;
+}
+
+p {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    color: rgb(138, 138, 138);
+    line-height: 1.3;
+    color: #A7A7A7;
 }
 
-h1{
+h1 {
     font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
     font-size: 34px;
     letter-spacing: .4rem;
-    color: rgb(82, 63, 253);
+    color: #5673D5;
 }
 
-.price{
+.price {
     font-family: 'Roboto', sans-serif;
-    font-size: 50px;
-    font-weight: bold;
-    color: rgb(82, 63, 253);
+    font-size: 30px;
+    font-weight: 500;
+    color: #5673D5;
 }
 
-.currency{
+.currency {
     font-family: 'Roboto', sans-serif;
-    font-size: 24px;
-    color: rgb(82, 63, 253);
+    font-size: 14px;
+    color: #5673D5;
     vertical-align:top;
 }
 
-.time{
+.deal {
+    color: #5673D5;
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    color: rgb(82, 63, 253); 
 }
