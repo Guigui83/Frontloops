@@ -38,10 +38,25 @@ h1{
     font-family: 'Roboto', sans-serif;
     font-size: 34px;
     letter-spacing: .4rem;
-    color: rgb(94, 159, 243);
+    color: rgb(82, 63, 253);
 }
 
 .price{
     font-family: 'Roboto', sans-serif;
-    color: rgb(94, 159, 243);
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(82, 63, 253);
+}
+
+.currency{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: rgb(82, 63, 253);
+    vertical-align:top;
+}
+
+.time{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: rgb(82, 63, 253); 
 }
