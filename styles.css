@@ -3,31 +3,29 @@ body{
     background-color: rgb(94, 159, 243);
 }
 
-
-.page{
-    display: flex;
-    justify-content: center;
-    flex direction: row;
-
-}
-
 .cards{
+    margin-top: 200px;
+    margin-left: 40px;
     background-color: rgb(255, 255, 255);
     border-radius: 10px ;
-    height: 500px;
+    height: 520px;
     width: 1300px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
-
-
-
 }
 
 .mobile,.desktop,.tv{
-    background-color: rgb(240, 232, 232);
+    background-color: rgb(255, 255, 255);
     border-radius: 10px;
     cursor: pointer;
+    text-align: center;
+    width: 410px;
+    height: 460px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 p{
@@ -40,5 +38,10 @@ h1{
     font-family: 'Roboto', sans-serif;
     font-size: 34px;
     letter-spacing: .4rem;
+    color: rgb(94, 159, 243);
+}
+
+.price{
+    font-family: 'Roboto', sans-serif;
     color: rgb(94, 159, 243);
 }
