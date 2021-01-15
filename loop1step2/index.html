@@ -10,23 +10,39 @@
 </head>
 <body>
   <div class="wrap">
-    <div class="credit_interface">
-      <div class="method">PAYMENT METHOD
+    <div class="card">
+      <div class="card__top">
+        <div class="dots card__dots">
+          <div class="dots__item dots__item_active"></div>
+          <div class="dots__item"></div>
+          <div class="dots__item"></div>
+        </div>
+
+        <div class="card__title">
+          Payment Method
+        </div>
       </div>
+
       <div class="credit">
-        <img src="./img/visa.svg" width="60" height="60" alt="Logo Visa">VISA
-      </div>
-      <div class="credit">
-        <img src="./img/mastercard.svg" width="60" height="60" alt="Logo Mastercard"><span class="card_selected">MASTERCARD</span>
-        <img src="./img/check.svg" width="30" height=""0" alt="Check logo green">
-      </div>
-      <div class="credit">
-        <img src="./img/maestro.svg" width="60" height="60" alt="Logo Maestro">MAESTRO
-      </div>
-      <div class="next"><span class="font-next">NEXT STEP</span>
-        <img src="./img/arrow.svg" alt="Arrow right white">
+        <div class="credit__item">
+          <img src="./img/visa.svg" alt="Logo colored Visa" class="credit__icon" />
+          <span class="credit__text">Visa</span>
+        </div>
+        <div class="credit__item credit__item_active">
+          <img src="./img/mastercard.svg" alt="Colored logo Mastercard" class="credit__icon" />
+          <span class="credit__text_active">Mastercard</span>
+        </div>
+        <div class="credit__item">
+          <img src="./img/maestro.svg" alt="Colored logo Maestro" class="credit__icon" />
+          <span class="credit__text">Maestro</span>
+        </div>
+
+        <div class="button">
+          <span class="button__text">Next step</span>
+          <img src="./img/arrow.svg" alt="Arrow right white" class="button__icon" />
+        </div>
       </div>
     </div>
-  </div>
+  </div>  
 </body>
 </html>
