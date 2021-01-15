@@ -1,4 +1,80 @@
-.background {
-    background-size: small;
+html {
+    min-height: 100%;
+  }
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #2f2f2f url('./img/background.jpg') 50%;
+    background-size: cover;
+
 }
+
+.wrap {
+    width: 340px;
+    margin: 100px auto;
+}
+
+.credit_interface {
+    margin: auto;
+    width: 550px;
+    height: 500px;       
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(228, 226, 226);
+}
+
+.method {
+    width: 550px;
+    height: 130px;
+    font-size: 18px;
+    font-weight: bold;
+    border-width: 1px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.credit {
+    width: 550px;
+    height: 100px;
+    color: rgb(150, 143, 143);
+    font-size: 14px;
+    font-weight: bold;
+    border-color: rgb(228, 226, 226);
+    border-top-style:solid;
+    border-width: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.card_selected {
+    color: rgb(0, 0, 0);
+}
+
+.next {
+    width: 550px;
+    height: 66px;
+    background: rgb(64, 149, 218);
+    border-color: rgb(228, 226, 226);
+    border-top-style:solid;
+    border-width: 1px;
+    border-radius: 5px;
+
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.font-next {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: bold;
+}
+
 
