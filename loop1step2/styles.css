@@ -72,6 +72,26 @@ body {
     color: rgb(0, 0, 0);
 }
 
+.credit__item_active::after {
+    content: '';
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    margin-top: -10px;
+    background: url('./img/check.svg');
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+  }
+
+.credit__item:last-child {
+    border-bottom: 0;
+  }
+
+.credit__item:hover {
+    background: #f1f1f1;
+  }
+
 .credit__icon {
     width: 40px;
     margin-right: 20px;
@@ -86,21 +106,32 @@ body {
 }
 
 .button {
-    padding: 15px 45px 15px 30px;
-    background: rgb(7, 155, 224);
+    background: #5A8BDD;
+  color: #fff;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  padding: 15px;
+  transition: background 0.15s ease-in-out;
+  position: relative;
+  cursor: pointer;
 }
 
 .button__text {
     text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 12px;
     color: white;
-    display: flex;
-    justify-content: space-between;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .button__icon {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    display: inline-block;
+    vertical-align: middle;
+    height: 14px;
+
 }
 
 
