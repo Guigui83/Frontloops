@@ -1,0 +1,26 @@
+html {
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(18, 160, 117);
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    line-height: 19px;
+    color: #333;
+    min-height: 100%;
+}
+
+.wrap {
+    width: 450px;
+    margin: 100px auto;
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+.image__bike {
+    width: 450px;
+    overflow: hidden;
+}
