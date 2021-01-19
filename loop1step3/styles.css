@@ -20,6 +20,30 @@ body {
     border-radius: 5px;
 }
 
+.card__top {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card__text{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.card__dot {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width:1px;  
+    border-color: #cecaca;
+    background: #ffffff;    
+}
+
+.card__icon {
+    height: 18px
+}
+
 .image__bike {
     width: 450px;
     overflow: hidden;
