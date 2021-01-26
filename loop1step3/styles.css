@@ -1,33 +1,54 @@
-html {
-    min-height: 100%;
-}
-
 body {
     margin: 0;
     padding: 0;
-    background: rgb(18, 160, 117);
+    background: #16a085;
     font-family: 'Roboto', sans-serif;
-    font-size: 13px;
-    line-height: 19px;
+    font-size: 16px;
+    line-height: 18px;
     color: #333;
-    min-height: 100%;
 }
 
 .wrap {
-    width: 450px;
-    margin: 100px auto;
-    background: rgb(255, 255, 255);
-    border-radius: 5px;
+    width: 600px;
+    margin: 100px auto;    
+}
+
+.card {
+    border-radius: 4px;
+    padding: 40px 70px 200px;
+    box-shadow: 0 22px 50px rgba(14,21,47, .2), 0 8px 20px rgba(14,21,47, .2);
+    background: #fff;
+    position: relative;
+}
+
+.card__inner {
+    position: relative;
+    z-index: 2;
+}
+
+.card__background {
+    background: url('./img/bicycle.png') no-repeat 50% 0;
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 280px;
 }
 
 .card__top {
     display: flex;
-    justify-content: space-around;
+    align-items: center;
 }
 
 .card__text{
-    font-size: 16px;
-    font-weight: 500;
+    flex-grow: 1;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.card__avatar{
+    display: block;
 }
 
 .card__dot {
@@ -38,13 +59,46 @@ body {
     border-width:1px;  
     border-color: #cecaca;
     background: #ffffff;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .card__icon {
     height: 18px
 }
 
-.image__bike {
-    width: 450px;
-    overflow: hidden;
- }
+.card__thx {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #aaa;
+}
+
+.card__order {
+    margin-top: 40px;
+}
+
+.order__item {
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.order__item:last-child {
+    padding: 0;
+  }
+
+.order__name {
+    flex-grow: 1;
+    color: #5c5c5c;
+}
+
+.order__price,
+.order__item_total .order__name {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.order__item_total .order__name {
+    text-transform: uppercase;
+  }
+
